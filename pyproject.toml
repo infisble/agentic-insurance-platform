@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aip"
+version = "0.1.0"
+description = "Agentic Insurance Platform: mini insurance core with an agentic claims layer"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "aiosqlite>=0.20",
+    "asyncpg>=0.30",
+    "pydantic[email]>=2.9",
+    "python-dateutil>=2.9",
+    "pydantic-settings>=2.6",
+    "faker>=30",
+    "anthropic>=1.11",
+    "mcp>=2.3",
+    "pypdf>=6.0",
+    "fpdf2>=2.8",
+    "python-multipart>=0.0.20",
+    "alembic>=1.14",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+redis = ["redis>=5.2"]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "pytest-cov>=5",
+    "httpx>=0.27",
+    "ruff>=0.7",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aip"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # Slovak/German diacritics in strings and comments are intended

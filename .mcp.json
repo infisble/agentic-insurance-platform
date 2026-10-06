@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aip-insurance": {
+      "command": ".venv/Scripts/python",
+      "args": ["-m", "aip.mcp", "--core-url", "http://localhost:8000"],
+      "env": { "AIP_MCP_AGENT": "handler-assistant" }
+    }
+  }
+}

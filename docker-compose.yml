@@ -1,0 +1,79 @@
+name: aip
+
+x-core-env: &core-env
+  AIP_DATABASE_URL: postgresql+asyncpg://aip:aip@postgres:5432/aip
+  AIP_AUTO_CREATE_SCHEMA: "false"  # the schema comes from Alembic migrations
+  AIP_DOCUMENT_DIR: /data/documents
+
+services:
+  postgres:
+    # Postgres 16 with pgvector preinstalled (ADR 0006).
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: aip
+      POSTGRES_PASSWORD: aip
+      POSTGRES_DB: aip
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aip"]
+      interval: 3s
+      retries: 20
+
+  cache:
+    # Redis-protocol cache only (ADR 0005); BSD-licensed Valkey, eviction allowed.
+    image: valkey/valkey:8-alpine
+    command: ["valkey-server", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    ports: ["6379:6379"]
+
+  api:
+    build: .
+    environment: *core-env
+    ports: ["8000:8000"]
+    volumes: ["documents:/data/documents"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      retries: 20
+
+  mcp:
+    # Read-only MCP tools over the core API, Streamable HTTP (ADR 0008).
+    build: .
+    command: ["python", "-m", "aip.mcp", "--transport", "http", "--host", "0.0.0.0",
+              "--port", "8766", "--core-url", "http://api:8000"]
+    ports: ["8766:8766"]
+    depends_on:
+      api:
+        condition: service_healthy
+
+  worker:
+    # Queue worker (ADR 0004). Offline rules by default; drop --offline and set
+    # ANTHROPIC_API_KEY to run the Claude agents.
+    build: .
+    command: ["python", "-m", "aip.agents", "worker", "--offline",
+              "--core-url", "http://api:8000", "--mcp-url", "http://mcp:8766/mcp"]
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      AIP_REDIS_URL: redis://cache:6379/0
+    depends_on:
+      api:
+        condition: service_healthy
+      mcp:
+        condition: service_started
+
+  seed:
+    build: .
+    profiles: ["seed"]
+    environment: *core-env
+    volumes: ["documents:/data/documents"]
+    command: ["python", "-m", "aip.seed", "--load", "--out", "/tmp/mock", "--golden", "/tmp/golden"]
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  documents:

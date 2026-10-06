@@ -1,0 +1,707 @@
+[
+  {
+    "key": "P000-POL000",
+    "holder": "P000",
+    "number": "DOM-2026-06CB0FB3",
+    "start_date": "2026-08-16",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "15000",
+      "property_type": "FLAT",
+      "region": "BA",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P001-POL001",
+    "holder": "P001",
+    "number": "DOM-2026-142C3FE8",
+    "start_date": "2026-08-10",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "120000",
+      "property_type": "FLAT",
+      "region": "KE",
+      "flood_zone": 4,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P002-POL002",
+    "holder": "P002",
+    "number": "PZP-2026-88BD6407",
+    "start_date": "2026-04-18",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 200,
+      "holder_age": 42,
+      "region": "TT",
+      "bonus_malus_level": 1
+    }
+  },
+  {
+    "key": "P003-POL003",
+    "holder": "P003",
+    "number": "PZP-2026-3602F8AC",
+    "start_date": "2026-03-24",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 85,
+      "holder_age": 31,
+      "region": "PO",
+      "bonus_malus_level": 0
+    }
+  },
+  {
+    "key": "P004-POL004",
+    "holder": "P004",
+    "number": "PZP-2025-E5D7B875",
+    "start_date": "2025-11-18",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 200,
+      "holder_age": 58,
+      "region": "ZA",
+      "bonus_malus_level": 5
+    }
+  },
+  {
+    "key": "P005-POL005",
+    "holder": "P005",
+    "number": "DOM-2025-AE849217",
+    "start_date": "2025-12-05",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "120000",
+      "property_type": "FLAT",
+      "region": "ZA",
+      "flood_zone": 2,
+      "deductible": "50"
+    }
+  },
+  {
+    "key": "P006-POL006",
+    "holder": "P006",
+    "number": "DOM-2025-D777A477",
+    "start_date": "2025-12-19",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "120000",
+      "property_type": "FLAT",
+      "region": "TN",
+      "flood_zone": 3,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P007-POL007",
+    "holder": "P007",
+    "number": "DOM-2025-3D4CBF37",
+    "start_date": "2025-12-25",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "15000",
+      "property_type": "HOUSE",
+      "region": "BA",
+      "flood_zone": 3,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P007-POL008",
+    "holder": "P007",
+    "number": "DOM-2025-C1590F53",
+    "start_date": "2025-11-24",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "TN",
+      "flood_zone": 4,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P008-POL009",
+    "holder": "P008",
+    "number": "PZP-2026-8DCDCD03",
+    "start_date": "2026-07-31",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 44,
+      "holder_age": 29,
+      "region": "BB",
+      "bonus_malus_level": 10
+    }
+  },
+  {
+    "key": "P009-POL010",
+    "holder": "P009",
+    "number": "DOM-2026-6C6FA611",
+    "start_date": "2026-02-05",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "15000",
+      "property_type": "FLAT",
+      "region": "NR",
+      "flood_zone": 2,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P010-POL011",
+    "holder": "P010",
+    "number": "PZP-2026-2A935D62",
+    "start_date": "2026-08-07",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 55,
+      "holder_age": 63,
+      "region": "BA",
+      "bonus_malus_level": 2
+    }
+  },
+  {
+    "key": "P011-POL012",
+    "holder": "P011",
+    "number": "DOM-2026-BC594585",
+    "start_date": "2026-06-14",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "FLAT",
+      "region": "NR",
+      "flood_zone": 4,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P011-POL013",
+    "holder": "P011",
+    "number": "PZP-2026-1EB0E38A",
+    "start_date": "2026-07-28",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 77,
+      "holder_age": 21,
+      "region": "TT",
+      "bonus_malus_level": 5
+    }
+  },
+  {
+    "key": "P012-POL014",
+    "holder": "P012",
+    "number": "DOM-2026-A53F8A28",
+    "start_date": "2026-05-20",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "30000",
+      "property_type": "HOUSE",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P013-POL015",
+    "holder": "P013",
+    "number": "DOM-2026-8DA01097",
+    "start_date": "2026-07-10",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "FLAT",
+      "region": "TN",
+      "flood_zone": 3,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P013-POL016",
+    "holder": "P013",
+    "number": "PZP-2026-00E85ECE",
+    "start_date": "2026-07-16",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 85,
+      "holder_age": 67,
+      "region": "PO",
+      "bonus_malus_level": -1
+    }
+  },
+  {
+    "key": "P014-POL017",
+    "holder": "P014",
+    "number": "DOM-2026-E61FECC0",
+    "start_date": "2026-06-28",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "BA",
+      "flood_zone": 3,
+      "deductible": "50"
+    }
+  },
+  {
+    "key": "P015-POL018",
+    "holder": "P015",
+    "number": "PZP-2026-33173470",
+    "start_date": "2026-02-18",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 132,
+      "holder_age": 45,
+      "region": "BA",
+      "bonus_malus_level": 2
+    }
+  },
+  {
+    "key": "P016-POL019",
+    "holder": "P016",
+    "number": "PZP-2026-ADF4E62D",
+    "start_date": "2026-04-12",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 160,
+      "holder_age": 21,
+      "region": "BB",
+      "bonus_malus_level": 5
+    }
+  },
+  {
+    "key": "P017-POL020",
+    "holder": "P017",
+    "number": "DOM-2026-30A900AD",
+    "start_date": "2026-03-09",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "FLAT",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P017-POL021",
+    "holder": "P017",
+    "number": "DOM-2026-B841D0A0",
+    "start_date": "2026-07-28",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "120000",
+      "property_type": "HOUSE",
+      "region": "BB",
+      "flood_zone": 2,
+      "deductible": "50"
+    }
+  },
+  {
+    "key": "P018-POL022",
+    "holder": "P018",
+    "number": "DOM-2026-6E0D2648",
+    "start_date": "2026-06-04",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "FLAT",
+      "region": "ZA",
+      "flood_zone": 1,
+      "deductible": "50"
+    }
+  },
+  {
+    "key": "P018-POL023",
+    "holder": "P018",
+    "number": "DOM-2026-2B70E525",
+    "start_date": "2026-01-06",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "FLAT",
+      "region": "KE",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P019-POL024",
+    "holder": "P019",
+    "number": "PZP-2026-FBE33B24",
+    "start_date": "2026-06-18",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 44,
+      "holder_age": 32,
+      "region": "BA",
+      "bonus_malus_level": 2
+    }
+  },
+  {
+    "key": "P020-POL025",
+    "holder": "P020",
+    "number": "PZP-2025-3FCB7546",
+    "start_date": "2025-12-10",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 44,
+      "holder_age": 27,
+      "region": "KE",
+      "bonus_malus_level": 8
+    }
+  },
+  {
+    "key": "P021-POL026",
+    "holder": "P021",
+    "number": "DOM-2026-46FDE062",
+    "start_date": "2026-06-12",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "HOUSE",
+      "region": "KE",
+      "flood_zone": 2,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P022-POL027",
+    "holder": "P022",
+    "number": "DOM-2025-271E3EE2",
+    "start_date": "2025-11-29",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "30000",
+      "property_type": "FLAT",
+      "region": "TT",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P023-POL028",
+    "holder": "P023",
+    "number": "PZP-2025-F1578470",
+    "start_date": "2025-11-11",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 132,
+      "holder_age": 37,
+      "region": "PO",
+      "bonus_malus_level": -1
+    }
+  },
+  {
+    "key": "P024-POL029",
+    "holder": "P024",
+    "number": "PZP-2025-907BFE36",
+    "start_date": "2025-12-02",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 110,
+      "holder_age": 70,
+      "region": "BA",
+      "bonus_malus_level": 10
+    }
+  },
+  {
+    "key": "P025-POL030",
+    "holder": "P025",
+    "number": "DOM-2026-78660765",
+    "start_date": "2026-03-13",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "PO",
+      "flood_zone": 1,
+      "deductible": "50"
+    }
+  },
+  {
+    "key": "P026-POL031",
+    "holder": "P026",
+    "number": "PZP-2025-C4536F1D",
+    "start_date": "2025-11-17",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 132,
+      "holder_age": 70,
+      "region": "NR",
+      "bonus_malus_level": 3
+    }
+  },
+  {
+    "key": "P026-POL032",
+    "holder": "P026",
+    "number": "PZP-2025-AD66A1BD",
+    "start_date": "2025-11-09",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 85,
+      "holder_age": 70,
+      "region": "BA",
+      "bonus_malus_level": 10
+    }
+  },
+  {
+    "key": "P027-POL033",
+    "holder": "P027",
+    "number": "PZP-2025-6DAA2E68",
+    "start_date": "2025-11-16",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 96,
+      "holder_age": 59,
+      "region": "BA",
+      "bonus_malus_level": 8
+    }
+  },
+  {
+    "key": "P027-POL034",
+    "holder": "P027",
+    "number": "PZP-2025-D284476C",
+    "start_date": "2025-12-16",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 44,
+      "holder_age": 59,
+      "region": "BB",
+      "bonus_malus_level": 5
+    }
+  },
+  {
+    "key": "P028-POL035",
+    "holder": "P028",
+    "number": "DOM-2026-3E6DD58B",
+    "start_date": "2026-04-17",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "30000",
+      "property_type": "FLAT",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P029-POL036",
+    "holder": "P029",
+    "number": "DOM-2026-F2B43ABF",
+    "start_date": "2026-04-22",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P030-POL037",
+    "holder": "P030",
+    "number": "DOM-2026-3B048A8B",
+    "start_date": "2026-01-27",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P030-POL038",
+    "holder": "P030",
+    "number": "DOM-2025-2DEFE193",
+    "start_date": "2025-12-07",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "15000",
+      "property_type": "FLAT",
+      "region": "ZA",
+      "flood_zone": 1,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P031-POL039",
+    "holder": "P031",
+    "number": "PZP-2026-93B7A886",
+    "start_date": "2026-07-30",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 132,
+      "holder_age": 41,
+      "region": "PO",
+      "bonus_malus_level": 0
+    }
+  },
+  {
+    "key": "P032-POL040",
+    "holder": "P032",
+    "number": "DOM-2026-0F6B40D0",
+    "start_date": "2026-01-14",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "KE",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P032-POL041",
+    "holder": "P032",
+    "number": "PZP-2026-2834E4C0",
+    "start_date": "2026-05-18",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 85,
+      "holder_age": 35,
+      "region": "NR",
+      "bonus_malus_level": 0
+    }
+  },
+  {
+    "key": "P033-POL042",
+    "holder": "P033",
+    "number": "PZP-2026-A5CB63A2",
+    "start_date": "2026-01-27",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 160,
+      "holder_age": 53,
+      "region": "TT",
+      "bonus_malus_level": 2
+    }
+  },
+  {
+    "key": "P034-POL043",
+    "holder": "P034",
+    "number": "PZP-2026-069F14F1",
+    "start_date": "2026-01-23",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 200,
+      "holder_age": 27,
+      "region": "BB",
+      "bonus_malus_level": 3
+    }
+  },
+  {
+    "key": "P035-POL044",
+    "holder": "P035",
+    "number": "DOM-2026-1AC70EC0",
+    "start_date": "2026-07-17",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "KE",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P035-POL045",
+    "holder": "P035",
+    "number": "DOM-2026-0964FBBF",
+    "start_date": "2026-02-03",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "50000",
+      "property_type": "HOUSE",
+      "region": "KE",
+      "flood_zone": 2,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P036-POL046",
+    "holder": "P036",
+    "number": "PZP-2026-0763FCD0",
+    "start_date": "2026-04-07",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 132,
+      "holder_age": 32,
+      "region": "KE",
+      "bonus_malus_level": 0
+    }
+  },
+  {
+    "key": "P036-POL047",
+    "holder": "P036",
+    "number": "PZP-2026-8D605936",
+    "start_date": "2026-06-12",
+    "risk": {
+      "product": "MOTOR_TPL",
+      "engine_kw": 160,
+      "holder_age": 32,
+      "region": "ZA",
+      "bonus_malus_level": -1
+    }
+  },
+  {
+    "key": "P037-POL048",
+    "holder": "P037",
+    "number": "DOM-2025-BF0D073D",
+    "start_date": "2025-11-23",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "FLAT",
+      "region": "TN",
+      "flood_zone": 3,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P038-POL049",
+    "holder": "P038",
+    "number": "DOM-2025-551AC8EA",
+    "start_date": "2025-11-05",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "30000",
+      "property_type": "HOUSE",
+      "region": "KE",
+      "flood_zone": 1,
+      "deductible": "100"
+    }
+  },
+  {
+    "key": "P038-POL050",
+    "holder": "P038",
+    "number": "DOM-2026-CADA4F80",
+    "start_date": "2026-08-10",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "HOUSE",
+      "region": "BB",
+      "flood_zone": 1,
+      "deductible": "200"
+    }
+  },
+  {
+    "key": "P039-POL051",
+    "holder": "P039",
+    "number": "DOM-2026-56ABF2F1",
+    "start_date": "2026-08-25",
+    "risk": {
+      "product": "HOUSEHOLD",
+      "sum_insured": "80000",
+      "property_type": "FLAT",
+      "region": "TN",
+      "flood_zone": 1,
+      "deductible": "100"
+    }
+  }
+]

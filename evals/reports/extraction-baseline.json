@@ -1,0 +1,27 @@
+{
+  "extractor": "baseline",
+  "model": null,
+  "seed": 2026,
+  "documents": 163,
+  "errors": [],
+  "critical": "86.2% [81.6%–90.3%] (n=652)",
+  "overall": "89.0% [85.3%–92.3%] (n=1630)",
+  "line_items": "81.0% [74.8%–86.5%] (n=163)",
+  "anomaly_detection": "86.7% [72.4%–96.8%] (n=30)",
+  "false_alarms_on_clean_docs": "0.0% [0.0%–0.0%] (n=134)",
+  "masking_recall": "86.9% [84.9%–88.9%] (n=520)",
+  "masking_missed_examples": [
+    "Adam Höfer",
+    "Alfréd Grznárová",
+    "Aurelia Oberhofer",
+    "Barbara Dusko",
+    "Benjamin Kopf",
+    "Blažej Franeková",
+    "Boleslav Novotný",
+    "Bonifác Capka",
+    "Branislav Ďurišová",
+    "Dagmara Mrázová"
+  ],
+  "cost_usd": "0",
+  "mean_latency_ms": 0
+}
